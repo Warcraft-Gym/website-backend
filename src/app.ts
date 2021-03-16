@@ -47,7 +47,7 @@ class App {
 
     connect(dbConnection.url, dbConnection.options)
       .then(() => {
-        logger.info('🟢 The database is connected.');
+        logger.info(`🟢 The database is connected @: ${process.env.MONGO_HOST}:${process.env.MONGO_PORT}.`);
       })
       .catch((error: Error) => {
         logger.error(`🔴 Unable to connect to the database: ${error}.`);
