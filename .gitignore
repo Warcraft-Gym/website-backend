@@ -8,8 +8,8 @@ lerna-debug.log*
 
 # Docker
 docker-compose.yml
-Dockerfile
-Dockerfile.dev
+# Dockerfile
+# Dockerfile.dev
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
